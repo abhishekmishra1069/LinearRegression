@@ -14,6 +14,6 @@ podman build -t salary-predictor-api . -f ContainerFile
 
 # pushing image to github
 
-podman login ghcr.io
-podman tag salary-predictor-api:latest ghcr.io/abhishekmishra1069/salary-predictor-api:24112025
-podman push ghcr.io/abhishekmishra1069/salary-predictor-api:24112025
+podman login ghcr.io  
+podman tag salary-predictor-api:latest ghcr.io/abhishekmishra1069/salary-predictor-api:24112025  
+podman push ghcr.io/abhishekmishra1069/salary-predictor-api:24112025  
