@@ -1,6 +1,9 @@
 # Use the Python 3.13 slim image as requested
 FROM python:3.13-slim
 
+LABEL   maintainer="Abhishek Mishra",
+        email="hello@abhimishraartsss.com"
+
 # Install system dependencies needed for compiling NumPy, Pandas, and Scikit-learn
 # Replaced 'libatlas-base-dev' with 'libopenblas-dev' to ensure necessary BLAS/LAPACK 
 # libraries are available for Pandas and NumPy compilation on this specific Debian distribution.
